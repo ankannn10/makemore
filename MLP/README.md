@@ -31,6 +31,8 @@ Performs a forward pass through the model layers using both automatic and manual
 Calculates the loss using cross-entropy between predicted and actual character labels.
 Updates weights and biases in both automatic and manual backpropagation routines using gradient descent.
 Tracks training loss every 10,000 steps.
+### Manual backpropagation: 
+Implementing the backpropagation algorithm from scratch to compute gradients and update model parameters.
 
 ## 5. Evaluation and Sampling:
 
